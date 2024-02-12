@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html langu = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content = "IE=wdge">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+        <title>my website</title>
+        <link rel = "stylesheet" href = "styles.css">
+        <script src="https://kit.fontawesome.com/5b735f6068.js" crossorigin="anonymous"></script>
+        <!---<link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Source+Code+Pro:wght@300&display=swap" rel="stylesheet">
+        ---->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Roboto:wght@400;500;700&family=Source+Code+Pro:wght@300&display=swap" rel="stylesheet">
+    
+            <script type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+            </script>
+            <script type="text/javascript">
+            (function(){
+            emailjs.init("TUG4Uhr-BrpZMxIPq");
+            })();
+            </script>
+  </head>
+    <body>
+        <div id= "header">
+            <div class = "containr">
+                <nav>   
+                        <h1 class = "logo" >Ntsetselelo</h1>
+                        <ul id = "sidemenu">
+                            <li><a href = "#header">Home</a></li>
+                            <li><a href = "#about">About</a></li>
+                            <li><a href = "#services">Services</a></li>
+                            <li><a href = "#portfolio">Portfolio</a></li>
+                            <li><a href = "#contact">Contact</a></li>
+                            <i class="fas fa-times" onclick = "closemenu()"></i>
+                        </ul>
+                        <i class="fas fa-bars" onclick ="openmenu()"></i>
+                </nav>
+        </div>         
+
+                <div id = "profile" class = "container2">
+                        <div class = "section-pic-container">
+                            <img class = "meee" src = "Photos/hoo.jpeg">
+                        </div>
+
+                        <div class = "section-text">
+                            <p class = "paragraph1">Hello, This is</p>
+                            <h1 class = "title">Ntsetselelo Hlungwani</h1>
+                            <p class = "paragraph2">Junior Software Developer</p>
+                            <div class = "btn-container">
+
+                                <button class = "btn btn-color-2" onclick="window.open('./Photos/ntsetseleloCV.pdf')">
+                                  download cv
+                                </button>
+                      
+                                <button class = "btn btn-color-1" onclick = "window.location.href = '#contact'">
+                                   Contact Me
+                                </button>                              
+                            </div>
+                            <div class = "social-iconsh">
+                                <a href = "https://www.linkedin.com/in/ntsetselelo-hlungwani-697268289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="fa-brands fa-facebook"></i></a>
+                                <a href = "https://www.linkedin.com/in/ntsetselelo-hlungwani-697268289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="fa-brands fa-twitter"></i></a>
+                                <a href = "https://www.linkedin.com/in/ntsetselelo-hlungwani-697268289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="fa-brands fa-instagram"></i></a>
+                                <a href = "https://www.linkedin.com/in/ntsetselelo-hlungwani-697268289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="fa-brands fa-linkedin-in"></i></a>
+                            </div>  
+                        </div>                       
+                </div>
+            </div>        
+               
+                
+                   
+
+          
+        
+
+<!---------about--------->
+        <div id = "about">
+            <div class = "container">
+                <div class = "row">
+
+                   <div class = "about-col-1">
+                        <img src = "Photos/ntsetselelo1.jpg">
+                   </div>
+
+                   <div class = "about-col-2">
+                    <div class = "aboutmediv">
+                        <h1 class = "aboutmetext">About Me</h1>
+                    </div>
+                    
+                    <p class = "p-aboutme">Motivated ICT software developer from the Durban University 
+                        of Technology with a strong understanding of all phases of the project 
+                        lifecycle in various agile development, I have the ability to write clean 
+                        code that is readable and demonstrate applications that are reliable and user-friendly.
+                         I have created responsive websites as well as big school projects.
+                    </p>
+
+                    <div class = "tab-title">
+
+                        <P class = "tab-links active-link" onclick = "opentab('skills')">Skills</P>
+                        <P class = "tab-links" onclick = "opentab('interets')">Interests</P>
+                        
+                        <P class = "tab-links" onclick = "opentab('education')">Education</P>
+                        <P class = "tab-links" onclick = "opentab('references')">References</P>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>frontend proficiency: frontend interfaces in HTML, CSS and Javascript as well as its frameworks
+                                React.js and Angular.js.
+                            </li>
+                            <li>
+                                backend proficiency: Rational databases in SQL, mySQL backend in ReactFUL, JSON, APIs written in c#.
+                            </li>
+                            <li>programming methodologies: understanding of Agile development and SCRUM</li>
+                            <li>Ability to interpret and document user requirements and translate them into technical specification</li>
+                            <li>Communication skills: ability to convey complex concepts in programming to non-technical audience</li>
+                            <li>basic knowlege of other programming languages: python, C, C++ and java</li> 
+                            <li>Microsoft visual studio, visual studio code and Android Studio</li>
+                            <li>Solid understanding of Object-Oriented Programming</li>
+                            <li>Database and Software development </li>
+                            <li>Problem Solving Skills </li>
+                            <li>Complexity analysis</li> 
+                            <li>Team Player</li>                              
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id ="interets">
+                        <ul>
+                            <li>Music</li>
+                            <li>Reading books </li>
+                            <li>Playing video games</li>  
+                            <li>travelling and exploring</li>                          
+                        </ul>
+                    </div>
+
+                    
+
+                    <div class="tab-contents" id ="education">
+                        <ul>
+                            <li><span>Kheto Nxumayo Agricultural High School</span><br>Matric</li>
+                            <li><span>University of Venda</span><br>****************</li>
+                            <li><span>Durban University of Technology</span><br>***************** </li>
+                            <li><span>Google</span><br>***************</li>
+                            <li><span>Cisco Networking Academy</span><br>****************</li>                                
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id ="references">
+                        <ul>
+                            <li><span>High School Principal</span><br>Luvengo D <br> 0716026079</li>
+                            <li><span>Project Team Members</span><br>Thabete L <br> 0724185432 </li>  
+                            <li><span>Project Team Members</span><br>Mashele N <br> 0724185432 </li>                         
+                        </ul>
+                    </div>
+                </div>  
+                  
+                </div>
+            </div>
+
+     
+
+    
+    
+    
+
+
+  
+
+        
+<!---------services---------->
+
+  <div id = "services">
+    <div class = "container">
+        <div class = "wrapper">
+            <div class = "sub-titleS">see what we can do for you!</div>
+        </div>
+         
+         <div class = "services-list">
+            <div>
+                <i class="fa-brands fa-figma"></i>
+                <h2>UI/UX Design</h2>
+                <p>We bring your product to life with intuitive and stunning interfaces
+                    that are both vissually appealing and easy to use.
+                </p>
+                <a href =>learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-brands fa-chrome"></i>
+                <h2>Website</h2>
+                <p>We create websites that meet your specific needs. Our website development services
+                    are designed to help your business establish online 
+                    presence and effectively reach your target audience.
+                </p>
+                <a href =>learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-brands fa-chromecast"></i>
+                <h2>web Applications</h2>
+                <p>Our web development services help your business to get a customized application
+                    that will be able to host relavant information such as your products in a database,
+                     keep track of your customers etc.
+                </p>
+                <a href =>learn more</a>
+            </div>
+         </div>
+     </div>
+ </div>
+ <div id = "document">
+
+  
+
+ <!---------portfolio----------->
+
+ 
+ <div id="portfolio">
+ 
+
+    <div class="container">
+        <h1 class  = "sub-title"> My Projects</h1>        
+        <div class = "work-list">
+
+            <div class = "work">
+                <img src = "photos/rockpicture.jpeg">
+                <h2 class = "pproject-title">rock paper scissor game</h2>
+            
+               <div class = "btn-container">
+
+                  <button class = "btn btn-color-2"
+                  onclick="window.open('https://github.com/ntsetselelo/rock-paper-scissors-game')">GitHub
+                  </button>
+
+                  <button class = "btn btn-color-1"
+                     onclick="window.open('https://hlungdev.netlify.app')">Live demo
+                  </button>
+               </div>
+            </div>
+
+
+            <div class = "work">
+                <img src = "photos/todopicture.jpeg">
+               <h2 class = "pproject-title">ToDo app</h2>
+
+               <div class = "btn-container">
+
+                  <button class = "btn btn-color-2"
+                    onclick="window.open('https://github.com/ntsetselelo/ToDoList')">GitHub
+                  </button>
+
+                  <button class = "btn btn-color-1"
+                     onclick="window.open('https://steady-tanuki-a1ad3c.netlify.app/')">Live demo
+                  </button>
+               </div>
+            </div>
+
+            <div class = "work">
+                <img src = "photos/e-cormmence.jpeg">
+               <h2 class = "pproject-title">E-commerce/still being built</h2>
+
+               <div class = "btn-container">
+
+                  <button class = "btn btn-color-2"
+                    >Documentation
+                  </button>
+
+                  <button class = "btn btn-color-1"
+                     >Live demo
+                  </button>
+               </div>
+            </div>
+
+           
+      
+        </div>
+ </div>
+
+ <!---------contact--------->
+
+<div id = "contact" class = "content">
+    <h2>Contact Us</h2>
+    <p>Feel free to reach out and connect! Your feedback, inquiries,
+         or just a friendly hello are always welcome.
+          You can contact me through the provided form, drop an email, or connect on social media. 
+          I appreciate your interest and look forward to hearing from you soon!
+    </p>
+</div>
+
+ <div class = containerc>
+        <div class = "contactinfo">
+            <div class = "box">
+                <div class = "icon"><i class="fa-sharp fa-solid fa-location-dot"></i></div>
+                <div class = "text">
+                    <h3>Address</h3>
+                    <p>20 Anderson Street<br>Marshalltown<br> Johannesburg<br>2001</p>
+                </div>
+            </div>
+            <div class = "box">
+                <div class = "icon"><i class="fa-solid fa-phone"></i></div>
+                <div class = "text">
+                    <h3>Phone</h3>
+                    <p>0818022005</p>
+                </div>
+            </div>
+            <div class = "box">
+                <div class = "icon"><i class="fa-solid fa-envelope"></i></div>
+                <div class = "text">
+                    <h3>Email</h3>
+                    <p>hlungwanintsetselo@gmail.com</p>
+                </div>
+            </div>
+            <div class = "social-iconsc">
+                <a href = "https://www.linkedin.com/in/ntsetselelo-hlungwani-697268289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="fa-brands fa-facebook"></i></a>
+                <a href = "https://www.linkedin.com/in/ntsetselelo-hlungwani-697268289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="fa-brands fa-twitter"></i></a>
+                <a href = "https://www.linkedin.com/in/ntsetselelo-hlungwani-697268289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="fa-brands fa-instagram"></i></a>
+                <a href = "https://www.linkedin.com/in/ntsetselelo-hlungwani-697268289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>    
+        </div>
+        <did class = "contactform">
+
+
+            <form id="contact-form">
+                <div class = "inputbox">
+                    
+                    <input type="text" id="from_name" name="from_name" required>
+                    <span>full name</span>
+                </div>
+                <div class = "inputbox">
+                    
+                    <input type="email" id="email_id" name="email_id" required>
+                    <span>Email</span>
+                </div>
+                <div class = "inputbox">
+                    
+                    <textarea id="message" name="message" required></textarea>
+                    <span>Type your message</span>
+                </div>
+        
+                <div class = "inputbox">
+                    <input class = "sendbutton" type="submit" value="Submit">
+                </div>
+              
+            </form>
+
+            <!----
+            <form>
+                <h2>Send a Message</h2>
+                <div class = "inputbox">
+                    <input type = "text" id = "fullName" name ="" required = "required">
+                    <span>full name</span>
+                </div>
+                <div class = "inputbox">
+                    <input type = "text" id = "email_id" name ="" required = "required">
+                    <span>Email</span>
+                </div>
+                <div class = "inputbox">
+                    <textarea id = "message" required = "required"></textarea>
+                    <span>Type your message</span>
+                </div>
+               
+                <div class = "inputbox">
+                    <button class = "sendbutton" onclick = "sendMail()">Send</button>
+                </div>
+            </form>
+            ---->
+
+        </div>
+    </div>
+
+
+<footer>
+    <nav>
+        <div class = "nav-links-container">
+            <ol class = "nav-links">
+                <li><a href = "#header">Home</a></li>
+                <li><a href = "#about">About</a></li>
+                <li><a href = "#services">Services</a></li>
+                <li><a href = "#portfolio">Portfolio</a></li>
+                <li><a href = "#contact">Contact</a></li>
+                
+            </ol>
+
+        </div>
+    </nav>
+    <p>Copyright ntsetselelohlungwani@. All rights reserved</p>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+ <!---------documentation---------->
+
+            <script type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+            </script>
+            <script type="text/javascript">
+            (function(){
+            emailjs.init("TUG4Uhr-BrpZMxIPq");
+            })();
+            </script>
+
+ 
+
+        <script>
+            var tablicks = document.getElementsByClassName("tab-links")
+            var tabcontents = document.getElementsByClassName("tab-contents")
+
+            function opentab(tabname){
+                for(tablick of tablicks){
+                    tablick.classList.remove("active-link")
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab")
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+
+        <script>
+
+            var sidemeu = document.getElementById("sidemenu");
+
+            function openmenu(){
+                sidemeu.style.right = "0";
+            }
+            function closemenu(){
+                sidemeu.style.right = "-200px";
+            }
+
+
+        </script>
+
+        <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+        <script>
+            emailjs.init("TUG4Uhr-BrpZMxIPq"); 
+
+            document.getElementById("contact-form").addEventListener("submit", function (event) {
+                event.preventDefault();
+
+                emailjs.sendForm("service_xid2wg1", "template_2nk1eyi", this)
+                    .then(
+                        function (response) {
+                            
+                            alert("Email sent successfully:", response);
+                            document.getElementById("contact-form").reset();
+                        },
+                        function (error) {
+                            alert("Error sending email:", error);
+                        }
+                    );
+            });
+        </script>
+
+
+    </body>
+</html>

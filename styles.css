@@ -249,6 +249,7 @@ nav ul li a:hover::after{
     margin:20px 0 40px;
     color:black;
     font-weight: 1000;
+    margin-bottom: 0;
     
 }
 .tab-links{
